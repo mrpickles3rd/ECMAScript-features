@@ -1,9 +1,10 @@
+/* eslint-disable comma-dangle */
 // Object argument
 const countries = {
-    IN: 'India',
-    SG: 'Singapore',
-}
-Object.entries(countries) // [["IN", "India"], ["SG", "Singapore"]]
+  IN: 'India',
+  SG: 'Singapore' // TODO: Are dangling commas tested yet?
+};
+Object.entries(countries); // [["IN", "India"], ["SG", "Singapore"]]
 
 // Non-object argument
 const countriesArr = ['India', 'Singapore'];
