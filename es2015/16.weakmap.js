@@ -1,7 +1,11 @@
 var weakMap = new WeakMap();
 
-var obj1  = {}
-var obj2  = {}
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// TODO: Fix this fils linting etc.
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+let obj1 = {} // TODO: Why is this passing without the `;` ???
+var obj2 = {}
 
 
 weakMap.set(obj1, 1);

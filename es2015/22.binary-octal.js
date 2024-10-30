@@ -1,10 +1,10 @@
 //Binary literals
-const num = 0b110;
-console.log(num); // 6
+const num1 = 0b110;
+console.log(num1); // 6
 
 //Octal literals
-const num = 055;
-console.log(num); // 45
+const num2 = 055;
+console.log(num2); // 45
 
 const invalidNum = 028;
 console.log(invalidNum); // treated as decimal 28

@@ -1,7 +1,9 @@
 function sum(...args) {
-    return args.reduce((previous, current) => {
-        return previous + current;
-    });
+  console.log('...args', args);
+  // return args.reduce((previous, current) => { // TODO: Is `reduce` tested yet?
+  // return previous + current;
+  // });
+  return args.reduce((previous, current) => previous + current, 0); // TODO: Is `reduce` tested yet?
 }
 
 console.log(sum(1, 2, 3)); // 6

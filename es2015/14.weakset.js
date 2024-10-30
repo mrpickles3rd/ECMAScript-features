@@ -1,9 +1,10 @@
-let myUserSet = new WeakSet();
+let john = { name: 'John' };
 
-let john = { name: "John" };
-let rocky = { name: "Rocky" };
-let alex = { name: "Alex" };
-let nick = { name: "Nick" };
+const rocky = { name: 'Rocky' };
+const alex = { name: 'Alex' };
+const nick = { name: 'Nick' };
+
+const myUserSet = new WeakSet();
 
 myUserSet.add(john);
 myUserSet.add(rocky);
